@@ -1,0 +1,497 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    margin: 0% 10%;
+    height: 13vh;
+}
+header>img{
+    width: 15%;
+    height: 7vh;
+    margin: 1.5% 0%;
+}
+header>ul{
+    display: flex;
+    list-style: none;
+    margin-left: 30% !important;
+    margin: 1.5% 0%;
+}
+header>ul>li{
+    width: 12.5vw;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 2.7vh;
+    margin: 0% 2% ;
+    font-weight: 600;
+}
+header>ul>li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+header>div{
+    width: 5%;
+    height: 8vh;
+    font-size: 4.7vh;
+    margin: 1.3% 0%;
+    background-color: #F86202;
+    margin-right: 2%;
+    border-radius: 150%;
+    text-align: center;
+    color: white;
+    padding-top: 0.2%;
+}
+body{
+    background-color: #E4E7EE;
+}
+.home{
+    margin: 0% 10%;
+    height: 80vh;
+    background-image:url(images/slider-bg-gray.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text>h1{
+    font-size: 6.8vh;
+    margin-top: 5%;
+    width: 51vw;
+    color: #38495A;
+    line-height: 120%;
+}
+.text>h1>span{
+    color: #F86202;
+}
+.text>p{
+    width: 51vw;
+    font-size: 2.1vh;
+    color: #747477;
+    margin-top: 1.5%;
+    letter-spacing: 1px;
+    font-weight: 500;
+    height: 20vh;
+}
+.text>p>span{
+    font-weight: 700;
+    display: block;
+}
+form{
+    width: 38vw;
+    height: 7vh;
+    margin-top: 0.5%;
+    background-color: white;
+    box-shadow: 2px 2px 5px 5px #C8C9CB;
+    position: relative;
+}
+form>select{
+    border: none;
+    width: 25%;
+    padding-left: 3%;
+    padding-top: 1.5%;
+    border-right: 1px solid #cccccf;
+    margin-top: 0.5%;
+    font-size: 2.5vh;
+}
+form>input{
+    width: 74%;
+    height: 90%;
+    border: none;
+    padding-left: 2%;
+    font-size: 2.6vh;
+}
+form>input:active{
+    border: none;
+    outline: none;
+}
+form>input:focus{
+    border: none;
+    outline: none;
+}
+.text>i{
+    position: absolute;
+    right: 53%;
+    bottom: 23.5%;
+    font-weight: 700;
+    color: #38495A;
+    font-size: 4vh;
+}
+.text{
+    width: 110vh;
+    float: left;
+    margin-top: 8%;
+}
+.form{
+    border: 2px solid;
+    width: 57vh;
+    float: right;
+    background-color: black;
+    height: 65vh;
+    margin-top: 5%;
+    border-radius: 5%;
+}
+.form>h1{
+    color: white;
+    margin-top: 4vh !important;
+    margin: 0px 7.5%;
+    width: 22vw;
+    text-align: center;
+    font-size: 5vh;
+}
+.form>input{
+    width: 90%;
+    margin: 2% 5%;
+    border-radius: 4px;
+    height: 6vh;
+}
+.form>select{
+    width: 90%;
+    height: 6vh;
+    border-radius: 4px;
+    margin: 2% 5%;
+    font-size: 2.7vh;
+    color: #696969;
+    padding-left: 2px;
+}
+.form>button{
+    width: 90%;
+    height: 7vh;
+    margin: 2% 5%;
+    border-radius: 5px;
+    background-color: #FE8315;
+    color: white;
+    border: none;
+    font-size: 2.3vh;
+}
+.form>button:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.services{
+    width: 100%;
+    padding: 2% 7%;
+    height: 190vh;
+    background-color: #F5F5F5;
+}
+body>a>img{
+    width: 6%;
+    position: fixed;
+    bottom: 2%;
+    right: 1.5%;
+}
+body>a>img:hover{
+    cursor: pointer;
+}
+.services>h2{
+    width: 50%;
+    text-align: center;
+    margin: 0.7% auto;
+    font-size: 4vh;
+}
+.services>p{
+    width: 70%;
+    text-align: center;
+    margin: 0% auto;
+    font-size: 2.2vh;
+}
+.services>.div{
+    margin: 2% auto;
+    height: 23vh;
+    display: flex;
+    justify-content: space-around;
+}
+.services>.div>div{
+    border: 1px solid #999999;
+    width: 16%;
+    height: 100%;
+    border-radius: 5%;
+    text-align: center;
+}
+.services>.div>div:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 5px #a8a8a8;
+}
+.services>.div>div>figure>img{
+    width: 40%;
+    padding-top: 8%;
+}
+.container{
+    width: 100%;
+    margin-top: 3%;
+}
+.container>figure>div{
+    border: 2px groove;
+    width: 19.1vw;
+    height: 38vh;
+    display: inline-flex;
+    border-radius: 5%;
+    text-align: center;
+    display: inline-block;
+}
+figure{
+    display: inline-block;
+    margin: 1% 1%;
+}
+.container>figure>div:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 5px #a8a8a8;
+}
+figure>div>p{
+    text-align: center;
+    width: 15VW;
+    font-size: 4vh;
+    height: 50%;
+    margin: 20% 10%;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+figure>#a1{
+    background-image: url(images/ac\ install.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+figure>#a2{
+    background-image: url(images/sofa\ cleaning.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+figure>#a3{
+    background-image: url(images/carpet\ cleaning.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}
+figure>#a4{
+    background-image: url(images/deep\ cleaning.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+figure>#a5{
+    background-image: url(images/washing\ machine\ repair.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+figure>#a6{
+    background-image: url(images/deep\ freezer\ repair.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+figure>#a7{
+    background-image: url(images/micro\ wave\ repair.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+figure>#a8{
+    background-image: url(images/pest\ control.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+figure>#a9{
+    background-image: url(images/make\ up.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+figure>#a10{
+    background-image: url(images/waxing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+figure>#a11{
+    background-image: url(images/facial.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+figure>#a12{
+    background-image: url(images/water\ tank\ cleaning.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+figcaption>button{
+    width: 16vw;
+    margin-top: -200%;
+    height: 6vh;
+    margin-bottom: 5%;
+    background-color: black;
+    color: white;
+    border-radius: 1vh;
+    font-size: 2.5vh;
+}
+figcaption>button:hover{
+    cursor: pointer;
+    background-color: #F86202;
+    outline: none;
+    border: none;
+}
+figcaption{
+    margin-top: -20%;
+    margin-left: 7%;
+}
+.video{
+    background-color: white;
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    overflow-y: scroll;
+
+}
+.video>video{
+    width: 27vw;
+    height: 40vh;
+    margin: 2.5% 1%;
+    border: 2px groove;
+    border-radius: 20px;
+}
+.white{
+    background-color: white;
+    margin-top: -1%;
+    padding: 2% 0%;
+}
+.white>h2{
+    width: 50%;
+    text-align: center;
+    margin: 0.7% auto;
+    font-size: 4vh;
+}
+.white>p{
+    width: 50%;
+    text-align: center;
+    margin: 0.7% auto;
+    font-size: 2.5vh;
+}
+.why-Choose{
+    padding: 5%;
+    margin-top: 2%;
+    display: flex;
+}
+.why-Choose>.img{
+    width: 50%;
+    height: 90vh;
+    background-image: url(images/home-tools.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.why-Choose>.text{
+    width: 50%;
+    height: 90vh;
+    margin-top: 0%;
+    padding: 1%;
+    line-height: 140%;
+}
+.why-Choose>.text>p{
+    width: 100%;
+    font-size: 2.5vh;
+}
+.why-Choose>.text>h2{
+    font-size: 4.5vh;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.why-Choose>.text>ul{
+    margin-top: -4%;
+    list-style: none;
+}
+.why-Choose>.text>ul>li>img{
+    margin-right: 2%;
+}
+.why-Choose>.text>ul>li{
+   margin: 1.6%;
+   font-weight: 700;
+}
+.offer{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    padding: 2% 10%;
+}
+.offer>div{
+    width: 50vw;
+    text-align: center;
+}
+.offer>div>img{
+    height: 100%;
+}
+#t>img{
+    width: 45%;
+    height: 7vh;
+    margin-top: 5%;
+}
+#t>h2{
+    margin-top: 40%;
+    margin-bottom: 7%;
+}
+#t{
+    text-align: left;
+}
+#qr>img{
+    width: 70%;
+    height: 40vh;
+    margin-top: 30%;
+}
+.logos{
+    background-color: white;
+    width: 100%;
+    padding: 3% 5%;
+    height: 90vh;
+}
+.logos>h2{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.logos>img{
+    width: 10.5vw;
+    margin: 1%;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 60vh;
+    padding: 0% 10%;
+    display: flex;
+}
+footer>div{
+    width: 15vw;
+}
+#l{
+    width: 30vw;
+    padding: 2%;
+    font-size: 2.4vh;
+}
+#l>p{
+    color: white;
+    margin-left: 5%;
+}
+footer>div>h2{
+    color: white;
+    margin-top: 50%;
+    margin-bottom: 10%;
+}
+footer>div>p{
+    color: white;
+}
+footer>div>p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#l>p:hover{
+ cursor: none;
+ text-decoration: none;
+}
